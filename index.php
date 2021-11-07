@@ -18,6 +18,7 @@
     $b = "0.5"; //string
 
     echo $a + floatval($b); //floatval - функция переводит к типу данных float
+
     
     echo $str . ': ' . $numb . ',' . $number;
     ?>
