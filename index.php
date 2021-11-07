@@ -18,6 +18,18 @@
     echo 9 + 3 - 4;
     echo "Текст"
     ?>
+
+    <?php
+    if (mt_rand(0,1)){
+        ?>
+        <div style="color: blue;">Синий текст</div>
+        <?php
+    }else {
+        ?>
+        <div style="color: red;">Красный текст</div>
+        <?php
+    }
+    ?>
 </body>
 
 </html>
