@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php
+
     $numb = 4; //int
     //$numb = 45;
     $number = 10.15; //float
@@ -17,6 +18,12 @@
 
     $a = 0.5; //int
     $b = "0.5"; //string
+
+    define("MY_AGE", 25); //обявление константы
+    echo MY_AGE . '<br>';
+
+    const MY_AG = 24; //обявление константы
+    echo MY_AG . '<br>';
 
     echo $a + floatval($b); //floatval - функция переводит к типу данных float
     
